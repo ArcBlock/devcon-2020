@@ -16,18 +16,19 @@
   },
   "scripts": {
     "lint": "eslint api src",
-    "clean": "rm -rf public api/dist .cache",
+    "clean": "rm -rf public api/dist .cache .blocklet",
     "serve": "gatsby serve",
     "build:gatsby": "gatsby build",
     "build:api": "NODE_ENV=production netlify-lambda build api/functions --config api/webpack.functions.js",
     "build": "npm run clean && npm-run-all build:*",
     "bundle": "yarn clean && npm-run-all bundle:*",
     "bundle:client": "NODE_ENV=production && yarn build:gatsby && rm -f public/*.map",
-    "bundle:server": "DEBUG=@abtnode/* NODE_ENV=production abtnode bundle -w api/webpack.blocklet.js",
+    "bundle:server": "DEBUG=@abtnode/* NODE_ENV=production an bundle -w api/webpack.blocklet.js --create-release",
     "bundle-server": "DEBUG=@abtnode/* NODE_ENV=development abtnode bundle -w api/webpack.blocklet.js",
     "start": "npm-run-all --parallel start:*",
     "start:gatsby": "gatsby develop --host 0.0.0.0",
-    "start:server": "nodemon api/index.js -w api"
+    "start:server": "nodemon api/index.js -w api",
+    "deploy": "npm run bundle && an deploy .blocklet/bundle --skip-hooks"
   },
   "license": "Apache-2.0",
   "lint-staged": {
@@ -101,73 +102,6 @@
     "nodemon": "^1.19.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^1.17.0"
-  },
-  "blocklet": {
-    "group": "dapp",
-    "color": "primary",
-    "logo": "logo.png",
-    "main": "api/index.js",
-    "provider": "arcblock",
-    "admin_url": "",
-    "config_url": "",
-    "public_url": "/",
-    "hooks": {
-      "pre-deploy": "npm run bundle"
-    },
-    "hookFiles": [],
-    "capabilities": {
-      "dynamicPathPrefix": false
-    },
-    "requiredEnvironments": [
-      {
-        "name": "MONGO_URI",
-        "description": "Please provide a valid MongoDB connection string to start",
-        "required": true,
-        "default": ""
-      },
-      {
-        "name": "APP_SK",
-        "description": "Please provide a valid app sk string to start",
-        "required": true,
-        "default": ""
-      },
-      {
-        "name": "CHAIN_ID",
-        "description": "Please provide a valid chain id to start",
-        "required": true,
-        "default": "xenon-2020-01-15"
-      },
-      {
-        "name": "CHAIN_HOST",
-        "description": "Please provide a valid chain host to start",
-        "required": true,
-        "default": "https://xenon.abtnetwork.io/api"
-      },
-      {
-        "name": "ASSET_CHAIN_ID",
-        "description": "Please provide a valid asset chain id to start",
-        "required": true,
-        "default": "xenon-2020-01-15"
-      },
-      {
-        "name": "ASSET_CHAIN_HOST",
-        "description": "Please provide a valid asset chain host to start",
-        "required": true,
-        "default": "https://xenon.abtnetwork.io/api"
-      },
-      {
-        "name": "MAILGUN_SMTP_USER",
-        "description": "Please provide a valid mailgun user to start",
-        "required": true,
-        "default": ""
-      },
-      {
-        "name": "MAILGUN_SMTP_PASSWORD",
-        "description": "Please provide a valid mailgun user password to start",
-        "required": true,
-        "default": ""
-      }
-    ]
   },
   "husky": {
     "hooks": {

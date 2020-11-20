@@ -1,0 +1,69 @@
+name: '@arcblock/devcon'
+title: DevCon
+description: DevCon 2020 Dapp
+version: 0.4.4
+files:
+  - blocklet.js
+  - public
+  - logo.png
+  - blocklet.md
+license: Apache-2.0
+group: dapp
+logo: logo.png
+main: api/index.js
+did: z8iZyENLBtwMopeEHg9AzzxJaKDsVvRiW5H5c
+environments:
+  - name: MONGO_URI
+    description: Please provide a valid MongoDB connection string to start
+    required: true
+    default: ''
+    secure: false
+  - name: APP_SK
+    description: Please provide a valid app sk string to start
+    required: true
+    default: ''
+    secure: false
+  - name: CHAIN_ID
+    description: Please provide a valid chain id to start
+    required: true
+    default: xenon-2020-01-15
+    secure: false
+  - name: CHAIN_HOST
+    description: Please provide a valid chain host to start
+    required: true
+    default: 'https://xenon.abtnetwork.io/api'
+    secure: false
+  - name: ASSET_CHAIN_ID
+    description: Please provide a valid asset chain id to start
+    required: true
+    default: xenon-2020-01-15
+    secure: false
+  - name: ASSET_CHAIN_HOST
+    description: Please provide a valid asset chain host to start
+    required: true
+    default: 'https://xenon.abtnetwork.io/api'
+    secure: false
+  - name: MAILGUN_SMTP_USER
+    description: Please provide a valid mailgun user to start
+    required: true
+    default: ''
+    secure: false
+  - name: MAILGUN_SMTP_PASSWORD
+    description: Please provide a valid mailgun user password to start
+    required: true
+    default: ''
+    secure: false
+community: ''
+documentation: ''
+homepage: ''
+interfaces:
+  - type: web
+    name: publicUrl
+    path: /
+    prefix: /
+    port: BLOCKLET_PORT
+    protocol: tcp
+screenshots: []
+specVersion: 1.0.1
+scripts:
+  preDeploy: npm run bundle
