@@ -1,3 +1,7 @@
+## 0.4.6 (November 24, 2020)
+
+- update gatsby extension
+
 ## 0.4.5 (November 20, 2020)
 
 - fit with 1.0.1 spec
