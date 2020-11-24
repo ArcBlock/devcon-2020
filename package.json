@@ -2,7 +2,7 @@
   "name": "@arcblock/devcon",
   "title": "DevCon",
   "description": "DevCon 2020 Dapp",
-  "version": "0.4.6",
+  "version": "0.4.7",
   "files": [
     "blocklet.js",
     "public",
@@ -46,7 +46,7 @@
     "@arcblock/forge-sdk": "^1.4.3",
     "@arcblock/forge-util": "^1.4.3",
     "@arcblock/forge-wallet": "^1.4.3",
-    "@arcblock/gatsby-i18n-redirect": "^7.30.0",
+    "@arcblock/gatsby-i18n-redirect": "^7.31.1",
     "@arcblock/gatsby-theme-www": "^7.30.0",
     "@arcblock/graphql-client": "^1.4.3",
     "@arcblock/mcrypto": "^1.4.3",
