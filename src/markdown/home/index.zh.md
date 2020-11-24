@@ -46,28 +46,28 @@ ArcBlock DevCon 2020 将向全球视频直播，以主题演讲、教学课堂�
 
 | **时间**  |                                   **主题**                                   |       **演讲者**       |
 | :-------: | :--------------------------------------------------------------------------: | :--------------------: |
-| 9:00 CST  |           [ArcBlock 平台打造记](./topic?id=where-we-are-today-zh)            |         冒志鸿         |
-| 9:30 CST  | [DApps 开发新范式：ABT 节点](./topic?id=the-feature-of-arcblock-abt-node-zh) |         冒志鸿         |
-| 10:30 CST |              [ABT 节点部署](./topic?id=abt-node-deployment-zh)               |         张镇强         |
-| 11:30 CST |     [圆桌：ABT 节点与云计算](./topic?id=abt-node-and-cloud-computing-zh)     | 冒志鸿，刘亮为，康馨月 |
-| 12:15 CST |         [Blocklet：构建去中心化应用的基石](./topic?id=blocklets-zh)          |         王仕军         |
-| 13:15 CST |         [ABT 钱包：通往去中心化世界的钥匙](./topic?id=abt-wallet-zh)         |         顾学武         |
-| 14:15 CST |             [去中心化身份](./topic?id=decentralize-identity-zh)              |          陈俊          |
-| 15:15 CST |       [ArcBlock 通用浏览器](./topic?id=arcBlock-universal-browser-zh)        |         卢佳孟         |
-| 16:15 CST |        [圆桌：区块链如何实战](./topic?id=how-does-blockchain-work-zh)        |   冒志鸿，方军，陈俊   |
+| 9:00 CST  |           [ArcBlock 平台打造记](/en/topic?id=where-we-are-today-zh)            |         冒志鸿         |
+| 9:30 CST  | [DApps 开发新范式：ABT 节点](/en/topic?id=the-feature-of-arcblock-abt-node-zh) |         冒志鸿         |
+| 10:30 CST |              [ABT 节点部署](/en/topic?id=abt-node-deployment-zh)               |         张镇强         |
+| 11:30 CST |     [圆桌：ABT 节点与云计算](/en/topic?id=abt-node-and-cloud-computing-zh)     | 冒志鸿，刘亮为，康馨月 |
+| 12:15 CST |         [Blocklet：构建去中心化应用的基石](/en/topic?id=blocklets-zh)          |         王仕军         |
+| 13:15 CST |         [ABT 钱包：通往去中心化世界的钥匙](/en/topic?id=abt-wallet-zh)         |         顾学武         |
+| 14:15 CST |             [去中心化身份](/en/topic?id=decentralize-identity-zh)              |          陈俊          |
+| 15:15 CST |       [ArcBlock 通用浏览器](/en/topic?id=arcBlock-universal-browser-zh)        |         卢佳孟         |
+| 16:15 CST |        [圆桌：区块链如何实战](/en/topic?id=how-does-blockchain-work-zh)        |   冒志鸿，方军，陈俊   |
 | 17:00 CST |                                     结束                                     |                        |
 
 ### 2020 年 6 月 21 日（周日）
 
 | **时间**  |                                               **主题**                                                |   **演讲者**   |
 | :-------: | :---------------------------------------------------------------------------------------------------: | :------------: |
-| 10:00 CST |                [区块链游戏：无限引力](./topic?id=blockchain-game-infinite-gravity-zh)                 |      荆陶      |
-| 10:45 CST |         [去中心化资讯平台：梦阳快讯](./topic?id=blockchain-info-platform-mengyang-express-zh)         |      陈凯      |
-| 11:30 CST |                [区块链食品溯源：茶链](./topic?id=blockchain-food-source-tea-chain-zh)                 |     徐咏忻     |
-| 12:15 CST |                       [教学课堂：ABT 节点](./topic?id=teach-class-abt-node-zh)                        | 王仕军，张镇强 |
-| 14:15 CST |              [教学课堂：去中心化身份](./topic?id=teach-class-decentralized-identity-zh)               |     卢佳孟     |
-| 16:15 CST | [教学课堂：用 Forge SDK 构建能够运行在 ABT Node 里的区块链游戏](./topic?id=teach-class-blockchain-zh) | 王仕军，顾学武 |
-| 18:15 CST |                            [黑客马拉松启动](./topic?id=hackathon-start-zh)                            |     冒志鸿     |
+| 10:00 CST |                [区块链游戏：无限引力](/en/topic?id=blockchain-game-infinite-gravity-zh)                 |      荆陶      |
+| 10:45 CST |         [去中心化资讯平台：梦阳快讯](/en/topic?id=blockchain-info-platform-mengyang-express-zh)         |      陈凯      |
+| 11:30 CST |                [区块链食品溯源：茶链](/en/topic?id=blockchain-food-source-tea-chain-zh)                 |     徐咏忻     |
+| 12:15 CST |                       [教学课堂：ABT 节点](/en/topic?id=teach-class-abt-node-zh)                        | 王仕军，张镇强 |
+| 14:15 CST |              [教学课堂：去中心化身份](/en/topic?id=teach-class-decentralized-identity-zh)               |     卢佳孟     |
+| 16:15 CST | [教学课堂：用 Forge SDK 构建能够运行在 ABT Node 里的区块链游戏](/en/topic?id=teach-class-blockchain-zh) | 王仕军，顾学武 |
+| 18:15 CST |                            [黑客马拉松启动](/en/topic?id=hackathon-start-zh)                            |     冒志鸿     |
 | 18:35 CST |                                                 结束                                                  |                |
 
 <p class="tip tip-schedule">*以上日程将根据实际情况实时进行微调，敬请留意。</p>
