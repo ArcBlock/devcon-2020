@@ -46,27 +46,27 @@ Learn more about ArcBlock and who we are.
 
 | **Time**  |                                        **Topic**                                         |                           **Speaker**                           |
 | :-------: | :--------------------------------------------------------------------------------------: | :-------------------------------------------------------------: |
-| 9:00 PST  |             [ArcBlock: where we are today](./topic?id=where-we-are-today-en)             |                           Robert Mao                            |
-| 9:30 PST  |    [The Next DApp Platform: ABT Node](./topic?id=the-feature-of-arcblock-abt-node-en)    |                           Robert Mao                            |
-| 10:30 PST | [PANEL: ABT Node and the Power of Cloud Computing](./topic?id=abt-node-and-the-cloud-en) |           Matt McKinney, Tyler Boscolo, Samir Saluja            |
-| 11:15 PST |  [Blocklets: Building Blocks for Modern Blockchain Software ](./topic?id=blocklets-en)   |                           Shijun Wang                           |
-| 12:15 PST |          [ABT Wallet: Keys to the Decentralized Web](./topic?id=abt-wallet-en)           |                          Nate Robinson                          |
-| 13:15 PST |              [Decentralized Identity](./topic?id=decentralize-identity-en)               |                          Kaliya Young                           |
-| 14:15 PST |                         [DID:CONNECT](./topic?id=did-connect-en)                         |                          Matt McKinney                          |
-| 15:15 PST |       [Developer Ecosystem for DApps](./topic?id=developer-ecosystem-for-dapps-en)       |                          Kyle Ellicott                          |
-| 16:15 PST |       [PANEL: Government and Blockchain](./topic?id=government-and-blockchain-en)        | Arry Yu, Charles Chen, Ian Griswold, Steve Albinoco, Robert Mao |
+| 9:00 PST  |             [ArcBlock: where we are today](/en/topic?id=where-we-are-today-en)             |                           Robert Mao                            |
+| 9:30 PST  |    [The Next DApp Platform: ABT Node](/en/topic?id=the-feature-of-arcblock-abt-node-en)    |                           Robert Mao                            |
+| 10:30 PST | [PANEL: ABT Node and the Power of Cloud Computing](/en/topic?id=abt-node-and-the-cloud-en) |           Matt McKinney, Tyler Boscolo, Samir Saluja            |
+| 11:15 PST |  [Blocklets: Building Blocks for Modern Blockchain Software ](/en/topic?id=blocklets-en)   |                           Shijun Wang                           |
+| 12:15 PST |          [ABT Wallet: Keys to the Decentralized Web](/en/topic?id=abt-wallet-en)           |                          Nate Robinson                          |
+| 13:15 PST |              [Decentralized Identity](/en/topic?id=decentralize-identity-en)               |                          Kaliya Young                           |
+| 14:15 PST |                         [DID:CONNECT](/en/topic?id=did-connect-en)                         |                          Matt McKinney                          |
+| 15:15 PST |       [Developer Ecosystem for DApps](/en/topic?id=developer-ecosystem-for-dapps-en)       |                          Kyle Ellicott                          |
+| 16:15 PST |       [PANEL: Government and Blockchain](/en/topic?id=government-and-blockchain-en)        | Arry Yu, Charles Chen, Ian Griswold, Steve Albinoco, Robert Mao |
 | 17:00 PST |                                        End of Day                                        |                                                                 |
 
 ### Saturday June 20th, 2020
 
 | **Time**  |                                                     **Topic**                                                      |          **Speaker**          |
 | :-------: | :----------------------------------------------------------------------------------------------------------------: | :---------------------------: |
-| 10:00 PST |                    [WORKSHOP: Hands on ABT Node and Blocklets](./topic?id=workshop-abt-node-en)                    | Shijun Wang, Zhenqiang Zhang  |
-| 12:00 PST | [WORKSHOP: Using Amazon QLDB verifiable ledger in ArcBlock ABT Node](./topic?id=running-aws-qldb-with-abt-node-en) | Lana Kalashnyk, Matt McKinney |
-| 13:00 PST |               [WORKSHOP: Deploy ABT Node on OpenStack](./topic?id=deploy-abt-node-on-open-stack-en)                |        Matthew Czajka         |
-| 14:00 PST |                 [WORKSHOP: Decentralized Identity](./topic?id=workshop-decentralized-identity-en)                  |          Jonathan Lu          |
-| 16:00 PST |         [WORKSHOP: Building Blockchain Game with Forge SDK on ABT Node](./topic?id=workshop-blockchain-en)         |  Shijun Wang, Nate Robinson   |
-| 18:00 PST |                               [Hackathon Kick-off](./topic?id=hackathon-kick-off-en)                               |          Robert Mao           |
+| 10:00 PST |                    [WORKSHOP: Hands on ABT Node and Blocklets](/en/topic?id=workshop-abt-node-en)                    | Shijun Wang, Zhenqiang Zhang  |
+| 12:00 PST | [WORKSHOP: Using Amazon QLDB verifiable ledger in ArcBlock ABT Node](/en/topic?id=running-aws-qldb-with-abt-node-en) | Lana Kalashnyk, Matt McKinney |
+| 13:00 PST |               [WORKSHOP: Deploy ABT Node on OpenStack](/en/topic?id=deploy-abt-node-on-open-stack-en)                |        Matthew Czajka         |
+| 14:00 PST |                 [WORKSHOP: Decentralized Identity](/en/topic?id=workshop-decentralized-identity-en)                  |          Jonathan Lu          |
+| 16:00 PST |         [WORKSHOP: Building Blockchain Game with Forge SDK on ABT Node](/en/topic?id=workshop-blockchain-en)         |  Shijun Wang, Nate Robinson   |
+| 18:00 PST |                               [Hackathon Kick-off](/en/topic?id=hackathon-kick-off-en)                               |          Robert Mao           |
 | 18:20 PST |                                                     End of Day                                                     |                               |
 
 <p class="tip tip-schedule">*The schedule will be fine-tuned according to the actual situation, so stay tuned.</p>

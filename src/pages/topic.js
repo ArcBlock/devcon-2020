@@ -42,14 +42,14 @@ const ENDayOne = ({ locale }) => (
       <tr>
         <td style={{ textAlign: 'center' }}>9:00 PST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=where-we-are-today-en`}>ArcBlock: where we are today</Link>
+          <Link to={`/${locale}/topic?id=where-we-are-today-en`}>ArcBlock: where we are today</Link>
         </td>
         <td style={{ textAlign: 'center' }}>Robert Mao</td>
       </tr>
       <tr>
         <td style={{ textAlign: 'center' }}>9:30 PST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=the-feature-of-arcblock-abt-node-en`}>
+          <Link to={`/${locale}/topic?id=the-feature-of-arcblock-abt-node-en`}>
             The Next DApp Platform: ABT Node
           </Link>
         </td>
@@ -58,7 +58,7 @@ const ENDayOne = ({ locale }) => (
       <tr>
         <td style={{ textAlign: 'center' }}>10:30 PST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=abt-node-and-the-cloud-en`}>
+          <Link to={`/${locale}/topic?id=abt-node-and-the-cloud-en`}>
             PANEL: ABT Node and the Power of Cloud Computing
           </Link>
         </td>
@@ -67,7 +67,7 @@ const ENDayOne = ({ locale }) => (
       <tr>
         <td style={{ textAlign: 'center' }}>11:15 PST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=blocklets-en`}>
+          <Link to={`/${locale}/topic?id=blocklets-en`}>
             Blocklets: Building Blocks for Modern Blockchain Software{' '}
           </Link>
         </td>
@@ -76,7 +76,7 @@ const ENDayOne = ({ locale }) => (
       <tr>
         <td style={{ textAlign: 'center' }}>12:15 PST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=abt-wallet-en`}>
+          <Link to={`/${locale}/topic?id=abt-wallet-en`}>
             ABT Wallet: Keys to the Decentralized Web
           </Link>
         </td>
@@ -85,21 +85,21 @@ const ENDayOne = ({ locale }) => (
       <tr>
         <td style={{ textAlign: 'center' }}>13:15 PST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=decentralize-identity-en`}>Decentralized Identity</Link>
+          <Link to={`/${locale}/topic?id=decentralize-identity-en`}>Decentralized Identity</Link>
         </td>
         <td style={{ textAlign: 'center' }}>Kaliya Young</td>
       </tr>
       <tr>
         <td style={{ textAlign: 'center' }}>14:15 PST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=did-connect-en`}>DID:CONNECT</Link>
+          <Link to={`/${locale}/topic?id=did-connect-en`}>DID:CONNECT</Link>
         </td>
         <td style={{ textAlign: 'center' }}>Matt McKinney</td>
       </tr>
       <tr>
         <td style={{ textAlign: 'center' }}>15:15 PST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=developer-ecosystem-for-dapps-en`}>
+          <Link to={`/${locale}/topic?id=developer-ecosystem-for-dapps-en`}>
             Developer Ecosystem for DApps
           </Link>
         </td>
@@ -108,7 +108,7 @@ const ENDayOne = ({ locale }) => (
       <tr>
         <td style={{ textAlign: 'center' }}>16:15 PST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=government-and-blockchain-en`}>
+          <Link to={`/${locale}/topic?id=government-and-blockchain-en`}>
             PANEL: Government and Blockchain
           </Link>
         </td>
@@ -144,7 +144,7 @@ const ENDayTwo = ({ locale }) => (
       <tr>
         <td style={{ textAlign: 'center' }}>10:00 PST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=workshop-abt-node-en`}>
+          <Link to={`/${locale}/topic?id=workshop-abt-node-en`}>
             WORKSHOP: Hands on ABT Node and Blocklets
           </Link>
         </td>
@@ -153,7 +153,7 @@ const ENDayTwo = ({ locale }) => (
       <tr>
         <td style={{ textAlign: 'center' }}>12:00 PST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=running-aws-qldb-with-abt-node-en`}>
+          <Link to={`/${locale}/topic?id=running-aws-qldb-with-abt-node-en`}>
             WORKSHOP: Using Amazon QLDB verifiable ledger in ArcBlock ABT Node
           </Link>
         </td>
@@ -162,7 +162,7 @@ const ENDayTwo = ({ locale }) => (
       <tr>
         <td style={{ textAlign: 'center' }}>13:00 PST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=deploy-abt-node-on-open-stack-en`}>
+          <Link to={`/${locale}/topic?id=deploy-abt-node-on-open-stack-en`}>
             WORKSHOP: Deploy ABT Node on OpenStack
           </Link>
         </td>
@@ -171,7 +171,7 @@ const ENDayTwo = ({ locale }) => (
       <tr>
         <td style={{ textAlign: 'center' }}>14:00 PST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=workshop-decentralized-identity-en`}>
+          <Link to={`/${locale}/topic?id=workshop-decentralized-identity-en`}>
             WORKSHOP: Decentralized Identity
           </Link>
         </td>
@@ -180,7 +180,7 @@ const ENDayTwo = ({ locale }) => (
       <tr>
         <td style={{ textAlign: 'center' }}>16:00 PST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=workshop-blockchain-en`}>
+          <Link to={`/${locale}/topic?id=workshop-blockchain-en`}>
             WORKSHOP: Building Blockchain Game with Forge SDK on ABT Node
           </Link>
         </td>
@@ -189,7 +189,7 @@ const ENDayTwo = ({ locale }) => (
       <tr>
         <td style={{ textAlign: 'center' }}>18:00 PST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=hackathon-kick-off-en`}>Hackathon Kick-off</Link>
+          <Link to={`/${locale}/topic?id=hackathon-kick-off-en`}>Hackathon Kick-off</Link>
         </td>
         <td style={{ textAlign: 'center' }}>Robert Mao</td>
       </tr>
@@ -221,14 +221,14 @@ const ZHDayOne = ({ locale }) => (
       <tr>
         <td style={{ textAlign: 'center' }}>9:00 CST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=where-we-are-today-zh`}>ArcBlock 平台打造记</Link>
+          <Link to={`/${locale}/topic?id=where-we-are-today-zh`}>ArcBlock 平台打造记</Link>
         </td>
         <td style={{ textAlign: 'center' }}>冒志鸿</td>
       </tr>
       <tr>
         <td style={{ textAlign: 'center' }}>9:30 CST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=the-feature-of-arcblock-abt-node-zh`}>
+          <Link to={`/${locale}/topic?id=the-feature-of-arcblock-abt-node-zh`}>
             DApps 开发新范式：ABT 节点
           </Link>
         </td>
@@ -237,14 +237,14 @@ const ZHDayOne = ({ locale }) => (
       <tr>
         <td style={{ textAlign: 'center' }}>10:30 CST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=abt-node-deployment-zh`}>ABT 节点部署</Link>
+          <Link to={`/${locale}/topic?id=abt-node-deployment-zh`}>ABT 节点部署</Link>
         </td>
         <td style={{ textAlign: 'center' }}>张镇强</td>
       </tr>
       <tr>
         <td style={{ textAlign: 'center' }}>11:30 CST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=abt-node-and-cloud-computing-zh`}>
+          <Link to={`/${locale}/topic?id=abt-node-and-cloud-computing-zh`}>
             圆桌：ABT 节点与云计算
           </Link>
         </td>
@@ -253,35 +253,35 @@ const ZHDayOne = ({ locale }) => (
       <tr>
         <td style={{ textAlign: 'center' }}>12:15 CST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=blocklets-zh`}>Blocklet：构建去中心化应用的基石</Link>
+          <Link to={`/${locale}/topic?id=blocklets-zh`}>Blocklet：构建去中心化应用的基石</Link>
         </td>
         <td style={{ textAlign: 'center' }}>王仕军</td>
       </tr>
       <tr>
         <td style={{ textAlign: 'center' }}>13:15 CST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=abt-wallet-zh`}>ABT 钱包：通往去中心化世界的钥匙</Link>
+          <Link to={`/${locale}/topic?id=abt-wallet-zh`}>ABT 钱包：通往去中心化世界的钥匙</Link>
         </td>
         <td style={{ textAlign: 'center' }}>顾学武</td>
       </tr>
       <tr>
         <td style={{ textAlign: 'center' }}>14:15 CST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=decentralize-identity-zh`}>去中心化身份</Link>
+          <Link to={`/${locale}/topic?id=decentralize-identity-zh`}>去中心化身份</Link>
         </td>
         <td style={{ textAlign: 'center' }}>陈俊</td>
       </tr>
       <tr>
         <td style={{ textAlign: 'center' }}>15:15 CST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=arcBlock-universal-browser-zh`}>ArcBlock 通用浏览器</Link>
+          <Link to={`/${locale}/topic?id=arcBlock-universal-browser-zh`}>ArcBlock 通用浏览器</Link>
         </td>
         <td style={{ textAlign: 'center' }}>卢佳孟</td>
       </tr>
       <tr>
         <td style={{ textAlign: 'center' }}>16:15 CST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=how-does-blockchain-work-zh`}>圆桌：区块链如何实战</Link>
+          <Link to={`/${locale}/topic?id=how-does-blockchain-work-zh`}>圆桌：区块链如何实战</Link>
         </td>
         <td style={{ textAlign: 'center' }}>冒志鸿，方军，陈俊</td>
       </tr>
@@ -313,7 +313,7 @@ const ZHDayTwo = ({ locale }) => (
       <tr>
         <td style={{ textAlign: 'center' }}>10:00 CST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=blockchain-game-infinite-gravity-zh`}>
+          <Link to={`/${locale}/topic?id=blockchain-game-infinite-gravity-zh`}>
             区块链游戏：无限引力
           </Link>
         </td>
@@ -322,7 +322,7 @@ const ZHDayTwo = ({ locale }) => (
       <tr>
         <td style={{ textAlign: 'center' }}>10:45 CST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=blockchain-info-platform-mengyang-express-zh`}>
+          <Link to={`/${locale}/topic?id=blockchain-info-platform-mengyang-express-zh`}>
             去中心化资讯平台：梦阳快讯
           </Link>
         </td>
@@ -331,7 +331,7 @@ const ZHDayTwo = ({ locale }) => (
       <tr>
         <td style={{ textAlign: 'center' }}>11:30 CST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=blockchain-food-source-tea-chain-zh`}>
+          <Link to={`/${locale}/topic?id=blockchain-food-source-tea-chain-zh`}>
             区块链食品溯源：茶链
           </Link>
         </td>
@@ -340,14 +340,14 @@ const ZHDayTwo = ({ locale }) => (
       <tr>
         <td style={{ textAlign: 'center' }}>12:15 CST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=teach-class-abt-node-zh`}>教学课堂：ABT 节点</Link>
+          <Link to={`/${locale}/topic?id=teach-class-abt-node-zh`}>教学课堂：ABT 节点</Link>
         </td>
         <td style={{ textAlign: 'center' }}>王仕军，张镇强</td>
       </tr>
       <tr>
         <td style={{ textAlign: 'center' }}>14:15 CST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=teach-class-decentralized-identity-zh`}>
+          <Link to={`/${locale}/topic?id=teach-class-decentralized-identity-zh`}>
             教学课堂：去中心化身份
           </Link>
         </td>
@@ -356,7 +356,7 @@ const ZHDayTwo = ({ locale }) => (
       <tr>
         <td style={{ textAlign: 'center' }}>16:15 CST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=teach-class-blockchain-zh`}>
+          <Link to={`/${locale}/topic?id=teach-class-blockchain-zh`}>
             教学课堂：用 Forge SDK 构建能够运行在 ABT Node 里的区块链游戏
           </Link>
         </td>
@@ -365,7 +365,7 @@ const ZHDayTwo = ({ locale }) => (
       <tr>
         <td style={{ textAlign: 'center' }}>18:15 CST</td>
         <td style={{ textAlign: 'center' }}>
-          <Link to={`${locale}/topic?id=hackathon-start-zh`}>黑客马拉松启动</Link>
+          <Link to={`/${locale}/topic?id=hackathon-start-zh`}>黑客马拉松启动</Link>
         </td>
         <td style={{ textAlign: 'center' }}>冒志鸿</td>
       </tr>

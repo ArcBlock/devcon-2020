@@ -20,6 +20,14 @@ const config = {
         },
       },
     },
+    {
+      resolve: require.resolve('@arcblock/gatsby-i18n-redirect'),
+      options: {
+        languages: ['en', 'zh'],
+        cookieName: 'nf_lang',
+        pathPrefix: '/',
+      },
+    },
   ],
 };
 
