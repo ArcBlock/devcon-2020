@@ -1,3 +1,7 @@
+## 0.4.7 (November 24, 2020)
+
+- update i18n plugin
+
 ## 0.4.6 (November 24, 2020)
 
 - update gatsby extension
