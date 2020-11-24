@@ -32,7 +32,7 @@ node_modules
 .env.netlify
 logs/
 blocklet.js
-_blocklet
+.blocklet
 .env.dev
 .cache
 recipe-client.log

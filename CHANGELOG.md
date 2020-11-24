@@ -1,3 +1,7 @@
+## 0.4.5 (November 20, 2020)
+
+- fit with 1.0.1 spec
+
 ## 0.4.4 (November 09, 2020)
 
 
