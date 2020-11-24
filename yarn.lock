@@ -189,10 +189,10 @@
   dependencies:
     lodash "^4.17.10"
 
-"@arcblock/gatsby-i18n-redirect@^7.30.0":
-  version "7.30.0"
-  resolved "https://registry.yarnpkg.com/@arcblock/gatsby-i18n-redirect/-/gatsby-i18n-redirect-7.30.0.tgz#61cedf80b5bbdc02aa796313a59cdfabcd36d282"
-  integrity sha512-2cQ0S9EUEZkdVCRAa88i0nj9Ghob2LTGokvPh+uAGHEPOe7YMOoAS47tsl5+Wske6H/+Zik4XS/icc74s9z8ag==
+"@arcblock/gatsby-i18n-redirect@^7.31.1":
+  version "7.31.1"
+  resolved "https://registry.yarnpkg.com/@arcblock/gatsby-i18n-redirect/-/gatsby-i18n-redirect-7.31.1.tgz#97b3adefc6a8fffcb837251f4f480992d22ffbbe"
+  integrity sha512-dXKaDp75yCjet3Othhc0FjM49cWitYikQ7V19l8p5QFmh0rKdRgK9fjOMFiY+TdRTos6cWcJAZCw/xPWg+IE+Q==
 
 "@arcblock/gatsby-remark-extensions@^7.27.0":
   version "7.27.0"
