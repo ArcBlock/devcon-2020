@@ -61,6 +61,11 @@ redep:
 	@yarn
 	@git checkout yarn.lock
 
+github-action-test:
+	@yarn
+	@sudo npm install -g @abtnode/cli
+	@npm run bundle
+
 include .makefiles/*.mk
 
-.PHONY: build init travis-init install dep pre-build post-build all test doc precommit travis clean watch run bump-version create-pr
+.PHONY: build init travis-init install dep pre-build post-build all test doc precommit travis clean watch run bump-version create-pr github-action-test

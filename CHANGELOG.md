@@ -1,3 +1,7 @@
+## 0.4.8 (November 25, 2020)
+
+- update extension lib
+
 ## 0.4.7 (November 24, 2020)
 
 - update i18n plugin
