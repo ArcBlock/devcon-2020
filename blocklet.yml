@@ -1,7 +1,7 @@
 name: '@arcblock/devcon'
 title: DevCon
 description: DevCon 2020 Dapp
-version: 0.4.7
+version: 0.4.8
 files:
   - blocklet.js
   - public
@@ -67,3 +67,7 @@ screenshots: []
 specVersion: 1.0.1
 scripts:
   preDeploy: npm run bundle
+timeout:
+  start: 10
+capabilities:
+  dynamicPathPrefix: true
