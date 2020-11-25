@@ -1,7 +1,7 @@
 name: '@arcblock/devcon'
 title: DevCon
 description: DevCon 2020 Dapp
-version: 0.4.4
+version: 0.4.7
 files:
   - blocklet.js
   - public

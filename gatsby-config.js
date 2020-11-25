@@ -26,6 +26,7 @@ const config = {
         languages: ['en', 'zh'],
         cookieName: 'nf_lang',
         pathPrefix: '/',
+        pathSuffix: '/',
       },
     },
   ],
