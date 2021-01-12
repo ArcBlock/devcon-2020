@@ -1,3 +1,7 @@
+## 0.4.9 (January 12, 2021)
+
+- replace abtnode command with blocklet command
+
 ## 0.4.8 (November 25, 2020)
 
 - update extension lib
