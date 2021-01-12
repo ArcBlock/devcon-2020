@@ -23,12 +23,12 @@
     "build": "npm run clean && npm-run-all build:*",
     "bundle": "yarn clean && npm-run-all bundle:*",
     "bundle:client": "NODE_ENV=production && yarn build:gatsby && rm -f public/*.map",
-    "bundle:server": "DEBUG=@abtnode/* NODE_ENV=production abtnode bundle -w api/webpack.blocklet.js --create-release",
-    "bundle-server": "DEBUG=@abtnode/* NODE_ENV=development abtnode bundle -w api/webpack.blocklet.js",
+    "bundle:server": "DEBUG=@abtnode/* NODE_ENV=production blocklet bundle -w api/webpack.blocklet.js --create-release",
+    "bundle-server": "DEBUG=@abtnode/* NODE_ENV=development blocklet bundle -w api/webpack.blocklet.js",
     "start": "npm-run-all --parallel start:*",
     "start:gatsby": "gatsby develop --host 0.0.0.0",
     "start:server": "nodemon api/index.js -w api",
-    "deploy": "npm run bundle && abtnode deploy .blocklet/bundle --skip-hooks"
+    "deploy": "npm run bundle && blocklet deploy .blocklet/bundle --skip-hooks"
   },
   "license": "Apache-2.0",
   "lint-staged": {
