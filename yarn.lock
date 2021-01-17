@@ -2,95 +2,78 @@
 # yarn lockfile v1
 
 
-"@arcblock/client-extension@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@arcblock/client-extension/-/client-extension-1.5.5.tgz#f3711ae8f1a81c624f71b656bb7851459fe0855f"
-  integrity sha512-FpMOVqhkUMGVvg6J8OJkEYpwzn4nqwGMSjttxLinVtEQVgWwdjxXRuNCeELXCPRMa0qCxwSj6cD3ArZxrETWlg==
+"@arcblock/client-extension@^1.5.6":
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@arcblock/client-extension/-/client-extension-1.5.6.tgz#96f896f2f554b436569f46c262682fe8d89a5378"
+  integrity sha512-/Dqn+DGvWxiAZiHlu4RMwzJY/QQVpRtsGF/hG72CuP9hhSrgBwZdJbbqvdU96JKHT87RxaxQWfdYzfg10EmsKg==
   dependencies:
-    "@arcblock/did" "^1.5.5"
-    "@arcblock/did-util" "^1.5.5"
-    "@arcblock/forge-message" "^1.5.5"
-    "@arcblock/forge-proto" "^1.5.5"
-    "@arcblock/forge-util" "^1.5.5"
-    "@arcblock/forge-wallet" "^1.5.5"
-    "@arcblock/mcrypto" "^1.5.5"
+    "@arcblock/did" "^1.5.6"
+    "@arcblock/did-util" "^1.5.6"
+    "@arcblock/forge-message" "^1.5.6"
+    "@arcblock/forge-proto" "^1.5.6"
+    "@arcblock/forge-util" "^1.5.6"
+    "@arcblock/forge-wallet" "^1.5.6"
+    "@arcblock/mcrypto" "^1.5.6"
     debug "^4.3.1"
     lodash "^4.17.14"
 
-"@arcblock/did-auth-storage-mongo@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@arcblock/did-auth-storage-mongo/-/did-auth-storage-mongo-1.5.5.tgz#bd9f0e8b7769e4f98419314d60d9f9c3af8306b3"
-  integrity sha512-ZiV525IsHILgopV7o4BuQO/xatSZopcQI2Q25sNg7KrZCbMvHmmFYQCdcARnSj47MbDl/vLVdSPN8bmF3Olr7Q==
+"@arcblock/did-auth-storage-mongo@^1.5.6":
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@arcblock/did-auth-storage-mongo/-/did-auth-storage-mongo-1.5.6.tgz#35d6cb3a4f4325d3c3ab4b8b7fbafa0fa3ebb10c"
+  integrity sha512-c9lPk/+iy2PX1eCvDlR6iyJrrYSbwWzZZngPk0OqdEwgjTATZAovOaGgGqNFuydZi3Q1Ent/BrMXszgzHNVlHQ==
   dependencies:
-    "@arcblock/did-auth-storage" "^1.5.5"
+    "@arcblock/did-auth-storage" "^1.5.6"
     debug "^4.3.1"
     mongodb "3.1.13"
 
-"@arcblock/did-auth-storage@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@arcblock/did-auth-storage/-/did-auth-storage-1.5.5.tgz#01c051d8ea877083543920a1a60c501267444f1b"
-  integrity sha512-pAwQ79jsatAZIFenziwnl4HlX2fhnrfet/jnOeLrLmsJtc7HGR3yPznSRsPwylQWvXk53DWmjqGyIuhzqmFITw==
+"@arcblock/did-auth-storage@^1.5.6":
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@arcblock/did-auth-storage/-/did-auth-storage-1.5.6.tgz#325852cb16989726bdd188ae5095d1cb8802b2ba"
+  integrity sha512-lUKsLIKQbSW3QXICvZwYmaRPpgNUuRlOp7+M/NKUNGSLXFSSM0BvDyhh8hBx/vQpZvx0TgS9GwX9xAzkQ/vVBg==
 
-"@arcblock/did-auth@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@arcblock/did-auth/-/did-auth-1.5.5.tgz#61984c2c89830e13b5bf6b67522aae1aeafd4b1a"
-  integrity sha512-goJutkPwIvVzKsB36tv5D95Pgh2EYlJe1GgOq1OhoLyvCx8LrJEInBxbV5yDhPYLKxUCPIymcYy7HZQO4bEfzQ==
+"@arcblock/did-auth@^1.5.6":
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@arcblock/did-auth/-/did-auth-1.5.6.tgz#d351b7335512fdeee733306f6d720f3a6981b55d"
+  integrity sha512-oeo91IILO5c+ZX2Z+NfRCwDF1+qmbM7TlebLb2+HLw5CG8+wWotEdJxTxr72mcDilN1DxU2gTWSaRjKLZ5HdbQ==
   dependencies:
-    "@arcblock/did" "^1.5.5"
-    "@arcblock/forge-sdk" "^1.5.5"
-    "@arcblock/forge-util" "^1.5.5"
-    "@arcblock/forge-wallet" "^1.5.5"
-    "@arcblock/mcrypto" "^1.5.5"
-    "@arcblock/swap-retriever" "^1.5.5"
-    "@arcblock/tx-util" "^1.5.5"
+    "@arcblock/did" "^1.5.6"
+    "@arcblock/forge-sdk" "^1.5.6"
+    "@arcblock/forge-util" "^1.5.6"
+    "@arcblock/forge-wallet" "^1.5.6"
+    "@arcblock/mcrypto" "^1.5.6"
+    "@arcblock/swap-retriever" "^1.5.6"
+    "@arcblock/tx-util" "^1.5.6"
     axios "^0.21.1"
     debug "^4.3.1"
     json-stable-stringify "^1.0.1"
     lodash.get "^4.4.2"
 
-"@arcblock/did-connect@^0.78.19":
-  version "0.78.19"
-  resolved "https://registry.yarnpkg.com/@arcblock/did-connect/-/did-connect-0.78.19.tgz#bac72e0e2fdd4a0fa48c40f7235b6d6459ec5071"
-  integrity sha512-XiuWlp2h+oWWKEsRDV7ryDi5pr6Y5XiKBl7sBmsygRHTgzGc2YBsxVu6HNa/Qse1MYg9+IHPpa/m9vAgpGlrCw==
+"@arcblock/did-connect@^0.78.26":
+  version "0.78.26"
+  resolved "https://registry.yarnpkg.com/@arcblock/did-connect/-/did-connect-0.78.26.tgz#2065b11c73baee31b5fc88bdf067f0c50f7c0348"
+  integrity sha512-vhPROxdJHwBCJaJyCU2FPkZyN6+/EJOuaYI3ElMPaRnmiromvKJNyldruPCVxqoqm2+WwLgGyZDYl5ZNRVcrJw==
   dependencies:
-    "@arcblock/did-react" "^0.78.19"
-    "@arcblock/ux" "^0.78.19"
+    "@arcblock/did-react" "^0.78.26"
+    "@arcblock/ux" "^0.78.26"
     "@material-ui/core" "^4.10.1"
     core-js "^3.6.4"
     react-use "^13.22.4"
     styled-components "^5.0.0"
 
-"@arcblock/did-playground@^1.9.1":
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/@arcblock/did-playground/-/did-playground-1.9.1.tgz#5f56a41c73b3698f6a38256d3b57f94345bd1b1c"
-  integrity sha512-PhIwa9otcG/tmSpW0sYVzdRdwjtf7TE4ySv6DnFTVntd7MjxKdXqbA7+Uok+Ztz+mngkZWbFM39wey3yOOhEew==
+"@arcblock/did-playground@^1.10.2":
+  version "1.10.2"
+  resolved "https://registry.yarnpkg.com/@arcblock/did-playground/-/did-playground-1.10.2.tgz#56608ee84519b5408ce449dac7107dcb0fef1ead"
+  integrity sha512-mboE18a3y8VShl3XjISzxUksR0Mn1QnfDuNmAG9vEiNaF97n09bils703cvaESRi/jBfo1VEdL23Il5MFLSYQA==
   dependencies:
-    "@arcblock/did-react" "^0.78.14"
-    "@arcblock/react-hooks" "^0.78.0"
-    "@arcblock/ux" "^0.78.14"
+    "@arcblock/did-react" "^0.78.26"
+    "@arcblock/react-hooks" "^0.78.26"
+    "@arcblock/ux" "^0.78.26"
     "@material-ui/core" "^4.11.0"
     axios "^0.19.2"
     core-js "^3.6.4"
     mustache "^4.0.0"
     react-use "^13.27.0"
     styled-components "^5.0.1"
-
-"@arcblock/did-react@^0.78.14", "@arcblock/did-react@^0.78.19":
-  version "0.78.19"
-  resolved "https://registry.yarnpkg.com/@arcblock/did-react/-/did-react-0.78.19.tgz#1ef7c2ce6a829cbae8d71d2cf8248e9d04367751"
-  integrity sha512-6KPAS9qfcrdhCCHtIxz0Ej6XatqAclyKRA6CsPS7tJnrGXd5MThxUHrCD1kqws1T7WnRAWfzS608IyB1Y078rA==
-  dependencies:
-    "@arcblock/event-client" "^1.0.23"
-    "@arcblock/react-hooks" "^0.78.19"
-    "@arcblock/ux" "^0.78.19"
-    "@material-ui/core" "^4.10.1"
-    axios "^0.19.2"
-    core-js "^3.6.4"
-    dsbridge "3.1.4"
-    qrcode.react "^1.0.0"
-    react-load-script "^0.0.6"
-    react-use "^13.22.4"
-    styled-components "^5.0.0"
 
 "@arcblock/did-react@^0.78.26":
   version "0.78.26"
@@ -110,25 +93,25 @@
     react-use "^13.22.4"
     styled-components "^5.0.0"
 
-"@arcblock/did-util@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@arcblock/did-util/-/did-util-1.5.5.tgz#8f374b1a8b7bfa217c0a01bbe1f4cf1e4aa034b1"
-  integrity sha512-oOO4KWGmCp9njRJMTT2sif95WWFuz7p+Ulf91i9R7We/gWjFlAXJpYl9BzBV89TvmV5qkj/Ebj7xWC+tw62KOA==
+"@arcblock/did-util@^1.5.6":
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@arcblock/did-util/-/did-util-1.5.6.tgz#bbce0c526e000e113e8d51555e76c59cf3df0a57"
+  integrity sha512-JIluVsvr6bLFOfBvu1YRLmyOMXk8cuTHfaXh0PtbK4UH6y3y+bljlzsjahwyz1AGwsP1zDsscdYJVqqQ6h5Cig==
   dependencies:
-    "@arcblock/did" "^1.5.5"
-    "@arcblock/forge-message" "^1.5.5"
-    "@arcblock/forge-proto" "^1.5.5"
-    "@arcblock/forge-util" "^1.5.5"
-    "@arcblock/forge-wallet" "^1.5.5"
-    "@arcblock/mcrypto" "^1.5.5"
+    "@arcblock/did" "^1.5.6"
+    "@arcblock/forge-message" "^1.5.6"
+    "@arcblock/forge-proto" "^1.5.6"
+    "@arcblock/forge-util" "^1.5.6"
+    "@arcblock/forge-wallet" "^1.5.6"
+    "@arcblock/mcrypto" "^1.5.6"
 
-"@arcblock/did@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@arcblock/did/-/did-1.5.5.tgz#ad97a6f2cf1607a2ed40e1d6e39cb51183b68e85"
-  integrity sha512-Eujfn2GmDsYh88DsZJRZgQgLlaVsuLT5YfEHQqUMZmVk8NwN1ggSGjEm5esCuTCClMPMz6rxy9M8vvFBqqzYDg==
+"@arcblock/did@^1.5.6":
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@arcblock/did/-/did-1.5.6.tgz#635a3b159a8db506be5fa5592611c68207310295"
+  integrity sha512-d9latrutdlrQHCCzj36MFYLc8TxqVTUUVVuk1d85gPFA+Fc3mcK/VtTjD9J5/uL89iSQtv3vpWj2E4yJJjIxPg==
   dependencies:
-    "@arcblock/forge-util" "^1.5.5"
-    "@arcblock/mcrypto" "^1.5.5"
+    "@arcblock/forge-util" "^1.5.6"
+    "@arcblock/mcrypto" "^1.5.6"
     bn.js "^5.0.0"
     debug "^4.3.1"
     lodash "^4.17.14"
@@ -144,45 +127,45 @@
     wolfy87-eventemitter "^5.2.5"
     ws "^7.2.0"
 
-"@arcblock/forge-message@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@arcblock/forge-message/-/forge-message-1.5.5.tgz#7db7e23e3168c9f873c51022d9efc70e38472e75"
-  integrity sha512-25riQxSMxyh9joTF/wljUOgEVxeHuYRCcOfWKfi44YneTyk9J8mb4SUikLcIqjcLncEcp1ZljHyFij3yQqeUkQ==
+"@arcblock/forge-message@^1.5.6":
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@arcblock/forge-message/-/forge-message-1.5.6.tgz#471f9b4cbb7f82b9b40685de4279e89fde8a59c3"
+  integrity sha512-3UUKJw3H4DF8Z0S6M1EQN/+AL6Jbu1sAkfpN6hJJslnqDscxtaj0uuVHievM8s00kGXmU4j6Jpc9IpsbBgs3Sg==
   dependencies:
-    "@arcblock/forge-proto" "^1.5.5"
-    "@arcblock/forge-util" "^1.5.5"
+    "@arcblock/forge-proto" "^1.5.6"
+    "@arcblock/forge-util" "^1.5.6"
     debug "^4.3.1"
     google-protobuf "^3.9.0"
     lodash "^4.17.15"
 
-"@arcblock/forge-proto@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@arcblock/forge-proto/-/forge-proto-1.5.5.tgz#323a7c7568f93dc31b401d3e9782d88ee2b2ae77"
-  integrity sha512-7mLziHgL4rpYOYS11twFqjSrgA5WXP/XgDIJD0AeDsNpdrO23StKi3ueJbQ3EwbDKTcMWblPnpALc1LVFBMsRA==
+"@arcblock/forge-proto@^1.5.6":
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@arcblock/forge-proto/-/forge-proto-1.5.6.tgz#989669a8bdcabc24080d097312b8d04c18326c56"
+  integrity sha512-uSf8X1M8MZw3nSs6JBvKN5tvO5NLD0MwKSQJ5aIJ641BiQIVax2lwBObbaVcwdqkijwYED1Nn4S1T2UKIkwVJw==
   dependencies:
     "@grpc/grpc-js" "^1.0.5"
     debug "^4.3.1"
     google-auth-library "^6.0.1"
     lodash "^4.17.15"
 
-"@arcblock/forge-sdk@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@arcblock/forge-sdk/-/forge-sdk-1.5.5.tgz#77316cb069098310143fe5f4a82a130214163368"
-  integrity sha512-ZYgJEWcEvucUtMwe9hAPk+f2qaIenpzkuUtj2bbbZw0rYb5tn2Tq6Nl9AvbJcucg7KP4fTKQkrs29JqCF6F+pA==
+"@arcblock/forge-sdk@^1.5.6":
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@arcblock/forge-sdk/-/forge-sdk-1.5.6.tgz#a3441cff305711d0a36cf1a88a152e3eaa4e1d7d"
+  integrity sha512-MLpRhzAiolnATxs90ZPrACvUdlGMtM6/HGocd4WT9zNvx+/ITiq3LX7ztEHhJR8VMByYeEmJMuFUvT836B+QEA==
   dependencies:
-    "@arcblock/did-util" "^1.5.5"
-    "@arcblock/forge-message" "^1.5.5"
-    "@arcblock/forge-util" "^1.5.5"
-    "@arcblock/forge-wallet" "^1.5.5"
-    "@arcblock/graphql-client" "^1.5.5"
-    "@arcblock/grpc-client" "^1.5.5"
+    "@arcblock/did-util" "^1.5.6"
+    "@arcblock/forge-message" "^1.5.6"
+    "@arcblock/forge-util" "^1.5.6"
+    "@arcblock/forge-wallet" "^1.5.6"
+    "@arcblock/graphql-client" "^1.5.6"
+    "@arcblock/grpc-client" "^1.5.6"
     debug "^4.3.1"
     react-app-polyfill "^1.0.1"
 
-"@arcblock/forge-util@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@arcblock/forge-util/-/forge-util-1.5.5.tgz#ed1b8356492e6089621a77afafff84211ad78e15"
-  integrity sha512-t+DXU0oywPSjYxDaDrZHwy39Bi9yHaoI3BA1CwHGrVEPCXIiXg6Pxkvwmc3aK3bc1nxDQW7lDwS/FKV6WPwjgA==
+"@arcblock/forge-util@^1.5.6":
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@arcblock/forge-util/-/forge-util-1.5.6.tgz#60a38c8bc3486762790ac2c01ca6799d97886494"
+  integrity sha512-K/Xwr5q7u34Y9HuJei8O5syE2yn4stOB0VV3EYnXHRAwBDYJVUfzrr+ZI568hYH4WYKkCklLw63n9theKi2eoQ==
   dependencies:
     base64-url "^2.3.2"
     bn.js "4.11.6"
@@ -191,13 +174,13 @@
     number-to-bn "^1.7.0"
     utf8 "^3.0.0"
 
-"@arcblock/forge-wallet@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@arcblock/forge-wallet/-/forge-wallet-1.5.5.tgz#eec85f21eff3f4dbd51902b65df4d18cab0bc719"
-  integrity sha512-UV/jHaeDG24QDTdOu6oiTnkQVuHxTNqddD1fZoEPgzJOcREphwj1GgWqIxZBzWbi+82/a2tkOVAwsITpR2owzQ==
+"@arcblock/forge-wallet@^1.5.6":
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@arcblock/forge-wallet/-/forge-wallet-1.5.6.tgz#6140de12a65d704d550f25cbaaf9359e26a2510a"
+  integrity sha512-OrlLebC2hg+fA6olDGyGqkZIkL0DjCBe80UdQmPbZ4Ub4/ezmy+TKr9qpQKSrw0zweZI19tAXeKIYJg3qKPRog==
   dependencies:
-    "@arcblock/did" "^1.5.5"
-    "@arcblock/mcrypto" "^1.5.5"
+    "@arcblock/did" "^1.5.6"
+    "@arcblock/mcrypto" "^1.5.6"
     lodash.upperfirst "^4.3.1"
 
 "@arcblock/gatsby-awesome-pagination@^0.3.4":
@@ -225,10 +208,10 @@
     remark-containers "^1.1.0"
     remark-generic-extensions "^1.4.0"
 
-"@arcblock/gatsby-theme-www@^7.33.1":
-  version "7.33.1"
-  resolved "https://registry.yarnpkg.com/@arcblock/gatsby-theme-www/-/gatsby-theme-www-7.33.1.tgz#5a61e4ebf5b4662c999886784593df1599890589"
-  integrity sha512-M6OMirv5c6vMcdxcnqMn/546DBf3Xy4mDLegZcUWJuhp7Q995l90ODp7lishDzxNEL86zl+S/n38Ba5++DsTdg==
+"@arcblock/gatsby-theme-www@^7.33.3":
+  version "7.33.3"
+  resolved "https://registry.yarnpkg.com/@arcblock/gatsby-theme-www/-/gatsby-theme-www-7.33.3.tgz#9661067fba920016ee3504351b6163d15af24e28"
+  integrity sha512-7UGLSGbrZF3N57rIx4NthItEctef16ScpAQappzFyFSiUdSrAFdMO//83LZk66FW2mf25XGyOwE8wcQZguSuIg==
   dependencies:
     "@arcblock/gatsby-awesome-pagination" "^0.3.4"
     "@arcblock/gatsby-remark-extensions" "^7.27.0"
@@ -236,7 +219,7 @@
     "@arcblock/gatsby-transformer-slide-track" "^7.33.1"
     "@arcblock/gatsby-transformer-terminal-recording" "^7.33.1"
     "@arcblock/remark-include" "^7.27.0"
-    "@arcblock/www" "^7.33.1"
+    "@arcblock/www" "^7.33.3"
     "@svgr/webpack" "^4.1.0"
     "@xmark/core" "^0.24.0"
     "@xmark/theme-section-template" "^0.24.1"
@@ -316,12 +299,12 @@
     lodash "^4.17.15"
     unist-util-select "^1.5.0"
 
-"@arcblock/graphql-client@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@arcblock/graphql-client/-/graphql-client-1.5.5.tgz#c5ff5e7ffef6e88665d4f03e0adc28563b8ce667"
-  integrity sha512-noa09dSEyioSG6nc96tABZFHO6B1E6Cu5Qm5rAI+gSq13gfeolEjF9u0OfCD/ZOhdablEZhWThia3/0az6jajg==
+"@arcblock/graphql-client@^1.5.6":
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@arcblock/graphql-client/-/graphql-client-1.5.6.tgz#9c27d397425aa4f67841d10768fab3b7a4dae204"
+  integrity sha512-N2KjJaOLLq4TPhuNAXxOzxXpD6Omz8dNuv3gpaiGt8NVhLnosHbro/29bY5RxvhDaGJoDhv8bEyajL76jNFGmw==
   dependencies:
-    "@arcblock/client-extension" "^1.5.5"
+    "@arcblock/client-extension" "^1.5.6"
     "@arcblock/sdk-util" "^0.29.1"
     blueimp-md5 "^2.10.0"
     debug "^4.3.1"
@@ -331,25 +314,25 @@
     react-app-polyfill "^1.0.1"
     wolfy87-eventemitter "^5.2.5"
 
-"@arcblock/grpc-client@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@arcblock/grpc-client/-/grpc-client-1.5.5.tgz#d63df5af15f394d127e7a736bc4e4c7f352fce51"
-  integrity sha512-9cSRUPQworvbD4KLOSBHY5cWcCnYnFzORj6qhnDr0ykDuY3NqBiM9qkpYGxk9muSW6Q5wD2V7g/EXSZGAAaouw==
+"@arcblock/grpc-client@^1.5.6":
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@arcblock/grpc-client/-/grpc-client-1.5.6.tgz#f4cfab53e0dd551dff8338062625213c4f002e08"
+  integrity sha512-6lYgjG7cBkhrGpPSgblRxolrhqWr6FtNAGP4CpDKz071CTaSNmkFu/4Qzloqwe8FJC5gVHBoQAGJTESIasOH0g==
   dependencies:
-    "@arcblock/client-extension" "^1.5.5"
-    "@arcblock/forge-message" "^1.5.5"
-    "@arcblock/forge-proto" "^1.5.5"
+    "@arcblock/client-extension" "^1.5.6"
+    "@arcblock/forge-message" "^1.5.6"
+    "@arcblock/forge-proto" "^1.5.6"
     "@grpc/grpc-js" "^1.0.5"
     debug "^4.3.1"
     google-auth-library "^6.0.1"
     lodash "^4.17.15"
 
-"@arcblock/mcrypto@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@arcblock/mcrypto/-/mcrypto-1.5.5.tgz#0d359f2d8da1a727685feeb1c41eed2f6692eefd"
-  integrity sha512-CoU95Q7Mo3d0y+9/WCWozoM+WEBjAlstHbRtaUH5JLE51iYG2Wd29ZmLq/I86+6cjgTYvAQk463Z0ZibZVfAow==
+"@arcblock/mcrypto@^1.5.6":
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@arcblock/mcrypto/-/mcrypto-1.5.6.tgz#eb66eef6dd2d24ae3802fefc449bbf0e59191608"
+  integrity sha512-SCZKN8c74Qll0H/F8+YEUTO0kF/CQAT1Q0SNerRLAtlj7C0OQr0TIEh65/3D2VHQx4b8GcxhQ5kBL20VQFoYAQ==
   dependencies:
-    "@arcblock/forge-util" "^1.5.5"
+    "@arcblock/forge-util" "^1.5.6"
     bn.js "4.11.8"
     crypto-js "^3.1.9-1"
     elliptic "^6.4.1"
@@ -359,50 +342,32 @@
     randombytes "^2.0.6"
     tweetnacl "^1.0.1"
 
-"@arcblock/nft-template@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@arcblock/nft-template/-/nft-template-1.5.5.tgz#41e893413cefdecc42273e620d5786511f8413f6"
-  integrity sha512-xxfcq3yIPYsivI9LqYDl/MIkWMZhQgYkQH91cvoR+4n8Sd21vQisQyg6D9gbdsOy5iKiy0hdp6iv9yLkZV9sAQ==
+"@arcblock/nft-template@^1.5.6":
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@arcblock/nft-template/-/nft-template-1.5.6.tgz#caf7e0656a8f1c93605a279b7bf66affe9ea142b"
+  integrity sha512-6XtOct7fTvQuqJBnpwrfhxLLCh+KFPNunjFcXQ2NZd0jK8BfMmUA8sXDr4UMKBxkw7WVrAExVc3lC4YwkKcxJQ==
   dependencies:
-    "@arcblock/did" "^1.5.5"
-    "@arcblock/forge-util" "^1.5.5"
-    "@arcblock/forge-wallet" "^1.5.5"
-    "@arcblock/mcrypto" "^1.5.5"
-    "@arcblock/nft" "^1.5.5"
+    "@arcblock/did" "^1.5.6"
+    "@arcblock/forge-util" "^1.5.6"
+    "@arcblock/forge-wallet" "^1.5.6"
+    "@arcblock/mcrypto" "^1.5.6"
+    "@arcblock/nft" "^1.5.6"
     debug "^4.3.1"
     lodash "^4.17.14"
     pako "^1.0.11"
 
-"@arcblock/nft@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@arcblock/nft/-/nft-1.5.5.tgz#a4010e3e4219241c725ce07103f6bce7e143e625"
-  integrity sha512-jA5shIFN1ItAIZqAObzlkMUHBLXJ3HJad7Iy3DN3nwv2IhQmyi8QVVuEuRI8bT+3Ad2NKelw2Nkko5/TmwXeWA==
+"@arcblock/nft@^1.5.6":
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@arcblock/nft/-/nft-1.5.6.tgz#48064aca52208779096fb5f5e943d84b632b90f5"
+  integrity sha512-bLqr0zFkTkfh8H0tyyh/JxgmrcuSoAbTkVfkKjvkPNyI4UTgQZmKXI2ZpYDX+wewCMLB1zMKEE2YaxCLOB8Ipg==
   dependencies:
-    "@arcblock/forge-sdk" "^1.5.5"
-    "@arcblock/forge-wallet" "^1.5.5"
-    "@arcblock/vc" "^1.5.5"
+    "@arcblock/forge-sdk" "^1.5.6"
+    "@arcblock/forge-wallet" "^1.5.6"
+    "@arcblock/vc" "^1.5.6"
     debug "^4.3.1"
     json-stable-stringify "^1.0.1"
     lodash "^4.17.15"
     pako "^1.0.11"
-
-"@arcblock/react-hooks@^0.78.0":
-  version "0.78.0"
-  resolved "https://registry.yarnpkg.com/@arcblock/react-hooks/-/react-hooks-0.78.0.tgz#1e43b56b893c1efa8b418eff3140207b45dc22fe"
-  integrity sha512-RRdt7UvrM02breJ5oIOGSwqKOp0qVaCz+1pDBYlX5nY0mNAy6j92zkKAp8NI/3WiMOZmIkBP27v3BzIpCgotRQ==
-  dependencies:
-    core-js "^3.6.4"
-    event-target-shim "^5.0.1"
-    ismobilejs "^1.0.3"
-
-"@arcblock/react-hooks@^0.78.19":
-  version "0.78.19"
-  resolved "https://registry.yarnpkg.com/@arcblock/react-hooks/-/react-hooks-0.78.19.tgz#b4d1c3746c62a524a8b00954959aa5fef9f5a305"
-  integrity sha512-ydey9o4ua6b6eCFvRmo+cFs/mqADyukPNNoMD6cZ/NEQ7cVQuXjz1/RZSH3O+IfInHsEp3Yiy7DxyDf1Kpk8Ng==
-  dependencies:
-    core-js "^3.6.4"
-    event-target-shim "^5.0.1"
-    ismobilejs "^1.0.3"
 
 "@arcblock/react-hooks@^0.78.26":
   version "0.78.26"
@@ -432,71 +397,36 @@
     lodash.get "^4.4.2"
     lodash.set "^4.3.2"
 
-"@arcblock/swap-retriever@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@arcblock/swap-retriever/-/swap-retriever-1.5.5.tgz#9bcb880ce5a41ad1511593e635dabb05278af8ef"
-  integrity sha512-jddMpsU/LX5oHZdCUX1EewIiPPwoJGZPpCUlfhz4+G17bohJ/ri1fm5TWNVhkfiYMGqQdPDBSv8Ctx9zArjq8Q==
+"@arcblock/swap-retriever@^1.5.6":
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@arcblock/swap-retriever/-/swap-retriever-1.5.6.tgz#29f9849c4346817b7804fb2f59add6b630460b4b"
+  integrity sha512-/iS+lbwpHKjNzJEsTFAfElmz1zPU+Txrrv22AkWQ7PS23hLoYFn06s13eDZNNzYMTxdyrniFtbhqeGQmhyX9XA==
   dependencies:
-    "@arcblock/forge-sdk" "^1.5.5"
-    "@arcblock/tx-util" "^1.5.5"
+    "@arcblock/forge-sdk" "^1.5.6"
+    "@arcblock/tx-util" "^1.5.6"
     debug "^4.3.1"
     lodash "^4.17.15"
 
-"@arcblock/swap-storage-mongo@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@arcblock/swap-storage-mongo/-/swap-storage-mongo-1.5.5.tgz#a05c087f1533fd68229b55b504dd8f07b196fdc1"
-  integrity sha512-k6CEQYiaGXeNVKc4fqINtKkL1H764/Do+N/spiHptGhNusYul3doqb28LPeEA4PHBJzlv8FZw2zppft6uJsaug==
+"@arcblock/swap-storage-mongo@^1.5.6":
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@arcblock/swap-storage-mongo/-/swap-storage-mongo-1.5.6.tgz#2dc979ddb4a01b77e40adcbb4f67c96d21babb17"
+  integrity sha512-kN3zsd8zvWjLv5pvhPicpjrKfS+NJtSVID8MCb3bioU1jGRM7J+KxtPeKC2xIiJpgZGzmsaYBdu3t8GSHlWu+w==
   dependencies:
-    "@arcblock/swap-storage" "^1.5.5"
+    "@arcblock/swap-storage" "^1.5.6"
     mongodb "3.1.13"
 
-"@arcblock/swap-storage@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@arcblock/swap-storage/-/swap-storage-1.5.5.tgz#44f6ee5ef79fae19cc55fc79a2a0b6a3fad8497f"
-  integrity sha512-IBsgXdGTjQnWJgn+Pg5AaAMXQEZI2uTfuKNPxP0EJrETfysZTv9EdLeTp11GWy5U9Qa0JEv18Zt412CHh9QxiQ==
+"@arcblock/swap-storage@^1.5.6":
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@arcblock/swap-storage/-/swap-storage-1.5.6.tgz#486a5b133ecb696b742aa88375da6b13f5e196ae"
+  integrity sha512-WHpOFzjwxmDElZiNq9XtFyOvbv73cbIUAXjRP/Yyq9AIiFbWonF9bE1vI0oJ4JBphNwvSiPE19SF+EsigYGo5g==
 
-"@arcblock/tx-util@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@arcblock/tx-util/-/tx-util-1.5.5.tgz#78047af6915777ee9061aaf57127ef8e3a758a1b"
-  integrity sha512-9yjPieUDKvUCMhFtpZFl6AND5C5EF2b3fbIO15rx3XsuVOvT5XpS+r6DGGKXv13TQYfryDrTqe/w5Wyx7bDyFg==
+"@arcblock/tx-util@^1.5.6":
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@arcblock/tx-util/-/tx-util-1.5.6.tgz#efa8ee7406f8072d8682d70879b294baca620c49"
+  integrity sha512-EZ/q/vduKjpklkwGFiD4F6PVl6yOwFB9HSp8xGVW5HJSVMRqFxuq5YwBnO9pZX4CQjz0DdJqNSOUpvsKV6GwJA==
   dependencies:
-    "@arcblock/forge-sdk" "^1.5.5"
+    "@arcblock/forge-sdk" "^1.5.6"
     debug "^4.3.1"
-
-"@arcblock/ux@^0.78.14", "@arcblock/ux@^0.78.19":
-  version "0.78.19"
-  resolved "https://registry.yarnpkg.com/@arcblock/ux/-/ux-0.78.19.tgz#0239c3f1719001c3606a3e2b3e9db9e0230fb6c7"
-  integrity sha512-Fr+vEQrHaI3A8FHC5IeFk5ldjn7P0SJkVXr+TsW3/A95/RfMEKHEdEtRr6fLWrWA/14W9d60FzARj+m5s4vsAQ==
-  dependencies:
-    "@arcblock/react-hooks" "^0.78.19"
-    "@babel/plugin-syntax-dynamic-import" "^7.8.3"
-    "@material-ui/core" "^4.10.1"
-    "@material-ui/icons" "4.5.1"
-    axios "^0.19.2"
-    copy-to-clipboard "^3.2.0"
-    core-js "^3.6.4"
-    d3-geo "^1.11.6"
-    devices.css "^0.1.15"
-    graphiql "^0.13.2"
-    graphiql-code-exporter "^2.0.5"
-    graphiql-explorer "^0.4.3"
-    graphql "^14.6.0"
-    highlight.js "^9.15.8"
-    js-cookie "^2.2.0"
-    lodash "^4.17.15"
-    react-helmet "^5.2.1"
-    react-image "^4.0.3"
-    react-load-script "^0.0.6"
-    react-player "^1.15.2"
-    react-router-dom "^5.1.2"
-    react-use "^13.22.4"
-    rebound "^0.1.0"
-    styled-components "^5.0.0"
-    topojson-client "^3.0.0"
-    versor "^0.0.4"
-    xterm "4.1.0"
-    xterm-addon-fit "^0.2.1"
-    xterm-addon-web-links "^0.2.1"
 
 "@arcblock/ux@^0.78.26":
   version "0.78.26"
@@ -533,27 +463,27 @@
     xterm-addon-fit "^0.2.1"
     xterm-addon-web-links "^0.2.1"
 
-"@arcblock/vc@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@arcblock/vc/-/vc-1.5.5.tgz#53d078902cc3f2ef79b3810fca8eeb5919e4a19c"
-  integrity sha512-XoxdKoHiHFvlppzaIhDLLgSboalcAuyCHAJR8kC9UpqN+XTJq7NkdjQMMe+N6z7QURbTdlXaMf+p5a9ID3lYAg==
+"@arcblock/vc@^1.5.6":
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@arcblock/vc/-/vc-1.5.6.tgz#86d356ca1041fa97480526d288efca8d47f5098a"
+  integrity sha512-qROTKa13Hc401+jniP6ux167htMhaVKv14FmcC42ds/WXp1Z3ubhdc3Kz83MNldCn2oC6uiUA47IWRAia1MVKg==
   dependencies:
-    "@arcblock/did" "^1.5.5"
-    "@arcblock/forge-util" "^1.5.5"
-    "@arcblock/forge-wallet" "^1.5.5"
-    "@arcblock/mcrypto" "^1.5.5"
+    "@arcblock/did" "^1.5.6"
+    "@arcblock/forge-util" "^1.5.6"
+    "@arcblock/forge-wallet" "^1.5.6"
+    "@arcblock/mcrypto" "^1.5.6"
     debug "^4.3.1"
     json-stable-stringify "^1.0.1"
     lodash "^4.17.14"
 
-"@arcblock/www@^7.33.1":
-  version "7.33.1"
-  resolved "https://registry.yarnpkg.com/@arcblock/www/-/www-7.33.1.tgz#f34fa21cdbbbdacef395ca87dd26b1c34e71573c"
-  integrity sha512-BnGFAtpNvWKHp2VZT9SlrKxNVjhfBZax5obk/5ZWNclIg91dJS8eOLWdnXSFrxYMZHknbnrvXfkC3xOtNE0/Nw==
+"@arcblock/www@^7.33.3":
+  version "7.33.3"
+  resolved "https://registry.yarnpkg.com/@arcblock/www/-/www-7.33.3.tgz#830ee9d6372047796a2f13ae0ea7a2c7526a766c"
+  integrity sha512-5Uhsw7wmkaB2/220zVwzOmaX+2L5GSqx7yFmpL+7dG/iI2ATl3dZy03EX/8EXKGXZkRrR1TkS6KRjUOs1RrMoA==
   dependencies:
-    "@arcblock/did-connect" "^0.78.19"
-    "@arcblock/did-playground" "^1.9.1"
-    "@arcblock/ux" "^0.78.19"
+    "@arcblock/did-connect" "^0.78.26"
+    "@arcblock/did-playground" "^1.10.2"
+    "@arcblock/ux" "^0.78.26"
     "@material-ui/core" "^4.10.2"
     "@material-ui/icons" "4.5.1"
     "@stripe/stripe-js" "^1.10.0"
