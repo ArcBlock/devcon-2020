@@ -2,7 +2,7 @@
   "name": "@arcblock/devcon",
   "title": "DevCon",
   "description": "DevCon 2020 Dapp",
-  "version": "0.4.9",
+  "version": "0.5.0",
   "files": [
     "blocklet.js",
     "public",
