@@ -23,8 +23,8 @@ jobs:
     - name: Checkout repo
       uses: actions/checkout@v2
 
-    - name: Test
-      run: make github-action-test
+    - name: Bundle
+      run: make github-action-bundle
 
     - name: Deploy
       env:
