@@ -73,7 +73,7 @@
     "gatsby": "2.27.2",
     "jsonwebtoken": "^8.5.1",
     "moment": "^2.24.0",
-    "mongoose": "5.4.23",
+    "mongoose": "5.7.5",
     "morgan": "^1.9.1",
     "multibase": "^0.6.0",
     "nocache": "^2.1.0",
